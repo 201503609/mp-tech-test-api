@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gt.com</groupId>
+  <artifactId>mp-tech-test-api</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <modules>
+    <module>mp-tech-test-web</module>
+    <module>mp-tech-test-svc</module>
+    <module>mp-tech-test-model</module>
+    <module>mp-tech-test-dao</module>
+  </modules>
+</project>
